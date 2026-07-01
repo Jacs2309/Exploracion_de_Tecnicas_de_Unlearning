@@ -1,0 +1,308 @@
+{
+  "experiment": {
+    "p1": "Qwen/Qwen3-14B|/workspace/workspace/npo-qwen-n4-5.1/checkpoint-40",
+    "p1_type": "instruct",
+    "p1_spec": "hf:Qwen/Qwen3-14B|/workspace/workspace/npo-qwen-n4-5.1/checkpoint-40",
+    "p2": "random",
+    "p2_type": "ggp",
+    "p2_spec": "random",
+    "game": "notconnectfour",
+    "doubles": 5,
+    "total_games": 10,
+    "roles": [
+      "red",
+      "black"
+    ]
+  },
+  "results": [
+    {
+      "game_num": 1,
+      "red_player": "Qwen/Qwen3-14B|/workspace/workspace/npo-qwen-n4-5.1/checkpoint-40",
+      "red_type": "instruct",
+      "black_player": "random",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 153.2774408501573,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 1987,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 2,
+      "red_player": "random",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B|/workspace/workspace/npo-qwen-n4-5.1/checkpoint-40",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 154.18343830201775,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2009,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 3,
+      "red_player": "Qwen/Qwen3-14B|/workspace/workspace/npo-qwen-n4-5.1/checkpoint-40",
+      "red_type": "instruct",
+      "black_player": "random",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 152.77819841401652,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 1989,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 4,
+      "red_player": "random",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B|/workspace/workspace/npo-qwen-n4-5.1/checkpoint-40",
+      "black_type": "instruct",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 19,
+      "duration": 346.7318178298883,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 2460,
+          "completion": 4569,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 5,
+      "red_player": "Qwen/Qwen3-14B|/workspace/workspace/npo-qwen-n4-5.1/checkpoint-40",
+      "red_type": "instruct",
+      "black_player": "random",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 149.45471238601021,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 1989,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 6,
+      "red_player": "random",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B|/workspace/workspace/npo-qwen-n4-5.1/checkpoint-40",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 10,
+      "duration": 194.73353951913305,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1350,
+          "completion": 2600,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 7,
+      "red_player": "Qwen/Qwen3-14B|/workspace/workspace/npo-qwen-n4-5.1/checkpoint-40",
+      "red_type": "instruct",
+      "black_player": "random",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 152.01706248801202,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 1971,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 8,
+      "red_player": "random",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B|/workspace/workspace/npo-qwen-n4-5.1/checkpoint-40",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 153.41334361606278,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2005,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 9,
+      "red_player": "Qwen/Qwen3-14B|/workspace/workspace/npo-qwen-n4-5.1/checkpoint-40",
+      "red_type": "instruct",
+      "black_player": "random",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 148.24974345811643,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 1939,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 10,
+      "red_player": "random",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B|/workspace/workspace/npo-qwen-n4-5.1/checkpoint-40",
+      "black_type": "instruct",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 112.61929149110802,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 738,
+          "completion": 1466,
+          "total": 0
+        }
+      }
+    }
+  ],
+  "wins": {
+    "random": 8,
+    "Qwen/Qwen3-14B|/workspace/workspace/npo-qwen-n4-5.1/checkpoint-40": 2
+  },
+  "draws": 0,
+  "errors": 0,
+  "total_tokens": {
+    "Qwen/Qwen3-14B|/workspace/workspace/npo-qwen-n4-5.1/checkpoint-40": {
+      "prompt": 11532,
+      "completion": 22524,
+      "total": 0
+    },
+    "random": {
+      "prompt": 0,
+      "completion": 0,
+      "total": 0
+    }
+  },
+  "elapsed_s": 1746.2
+}

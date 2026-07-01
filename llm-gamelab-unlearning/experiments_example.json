@@ -1,0 +1,18 @@
+{
+  "games": ["tictactoe", "suicide", "connectfour", "notconnectfour", "breakthrough", "lines", "centralis"],
+  "ggp_opponents": ["random", "legal", "mcs"],
+  "llm_models": [
+    {"model": "qwen/qwq-32b", "provider": "openrouter"},
+    {"model": "qwen/qwen3-32b", "provider": "openrouter"},
+    {"model": "qwen/qwen2.5-72b-instruct", "provider": "openrouter"}
+  ],
+  "n_matches_per_config": 30,
+  "max_retries": 10,
+  "playclock": 10,
+  "startclock": 10,
+  "ggp_vs_ggp": true,
+  "swap_roles": true,
+  "use_mongo": false,
+  "output_dir": "./results",
+  "log_dir": "./logs"
+}

@@ -1,0 +1,9 @@
+Game,Model,Opponent,Total_Matches,Win_Rate,Draw_Rate,Loss_Rate,Forfeit_Rate,Illegal_Rate,Format_Error_Rate,Avg_Response_Time_s,Avg_Prompt_Tokens,Avg_Completion_Tokens,Abs_Wins,Abs_Draws,Abs_Losses,Abs_Forfeits,Abs_LLM_Turns,Abs_LLM_Attempts,Abs_Illegal_Moves,Abs_Format_Errors,Abs_Prompt_Tokens,Abs_Completion_Tokens
+notconnectfour,Qwen/Qwen3-14B,greedy,60,0.0,0.0,1.0,0.0,0.5,0.4142,31.2393,1330.37,2891.32,0,0,60,0,338,676,338,280,79822,173479
+notconnectfour,Qwen/Qwen3-14B,legal,60,0.5,0.0,0.5,0.0,0.5,0.1962,30.3232,1474.0,3247.1,30,0,30,0,390,780,390,153,88440,194826
+notconnectfour,Qwen/Qwen3-14B,mcs,60,0.0,0.0,1.0,0.0,0.5,0.4471,31.788,955.53,2323.88,0,0,60,0,274,548,274,245,57332,139433
+notconnectfour,Qwen/Qwen3-14B,random,60,0.1833,0.0,0.8167,0.0,0.5,0.4156,31.3324,1113.67,2582.53,11,0,49,0,302,604,302,251,66820,154952
+suicide,Qwen/Qwen3-14B,greedy,60,0.1667,0.0667,0.7667,0.0,0.5,0.1412,29.4761,1283.33,2131.98,10,4,46,0,262,524,262,74,77000,127919
+suicide,Qwen/Qwen3-14B,legal,60,1.0,0.0,0.0,0.0,0.5,0.1533,30.6287,777.5,1273.28,60,0,0,0,150,300,150,46,46650,76397
+suicide,Qwen/Qwen3-14B,mcs,60,0.0333,0.0,0.9667,0.0,0.5,0.2239,30.7412,1309.63,2289.82,2,0,58,0,268,536,268,120,78578,137389
+suicide,Qwen/Qwen3-14B,random,60,0.4667,0.1,0.4333,0.0,0.5,0.2143,30.6125,1147.7,1953.6,28,6,26,0,231,462,231,99,68862,117216

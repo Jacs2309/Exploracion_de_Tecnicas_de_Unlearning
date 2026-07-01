@@ -1,0 +1,1657 @@
+{
+  "experiment": {
+    "p1": "Qwen/Qwen3-14B",
+    "p1_type": "instruct",
+    "p1_spec": "hf:Qwen/Qwen3-14B",
+    "p2": "legal",
+    "p2_type": "ggp",
+    "p2_spec": "legal",
+    "game": "suicide",
+    "doubles": 30,
+    "total_games": 60,
+    "roles": [
+      "x",
+      "o"
+    ]
+  },
+  "results": [
+    {
+      "game_num": 1,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 93.91491068713367,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1497,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 2,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 63.7370726224035,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 3,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 92.63375854678452,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1510,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 4,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 63.957749178633094,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 5,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 91.80288894847035,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1510,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 6,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 63.74519779719412,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 7,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 91.90219520963728,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1500,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 8,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 63.79346910305321,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 9,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 91.515883423388,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1510,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 10,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 63.1319914534688,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 11,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 90.20696426182985,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1499,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 12,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 63.01693743094802,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 13,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.95741213671863,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1497,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 14,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.90805898793042,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 15,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.51029873266816,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1492,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 16,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.80624269135296,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 17,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.93757008202374,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1500,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 18,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.51201349683106,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 19,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.4401892889291,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1497,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 20,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.75691230595112,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 21,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.38125805184245,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1492,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 22,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.74335405230522,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 23,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 90.9839950799942,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1500,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 24,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 63.36255476437509,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 25,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 90.699428871274,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1500,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 26,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 63.029474487528205,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 27,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.83075513504446,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1499,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 28,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.67920953221619,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 29,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.84825708717108,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1500,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 30,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.68932196497917,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 31,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.82203313149512,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1500,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 32,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.6917010396719,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 33,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.37723730690777,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1492,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 34,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.66561464034021,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 35,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.65295566432178,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1497,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 36,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.687278693541884,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 37,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.70768239349127,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1499,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 38,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.71503456495702,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 39,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.72656334936619,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1499,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 40,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.66199226863682,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 41,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.80469405651093,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1500,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 42,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.66246776841581,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 43,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.6315814498812,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1497,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 44,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.66765778325498,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 45,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 90.46582769602537,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1510,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 46,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.73805555142462,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 47,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.87844527326524,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1499,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 48,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.70123560167849,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 49,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 90.51713947206736,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1510,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 50,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.669636676087976,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 51,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 90.39828170463443,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1510,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 52,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.66490893624723,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 53,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 90.39367957226932,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1510,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 54,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.630814116448164,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 55,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.29784408211708,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1492,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 56,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.65056709200144,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 57,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.72675173170865,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1499,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 58,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.66026122495532,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 59,
+      "x_player": "Qwen/Qwen3-14B",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 89.8735813908279,
+      "tokens": {
+        "x": {
+          "prompt": 933,
+          "completion": 1500,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 60,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 62.71224760264158,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 622,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    }
+  ],
+  "wins": {
+    "Qwen/Qwen3-14B": 60
+  },
+  "draws": 0,
+  "errors": 0,
+  "total_tokens": {
+    "Qwen/Qwen3-14B": {
+      "prompt": 46650,
+      "completion": 76397,
+      "total": 0
+    },
+    "legal": {
+      "prompt": 0,
+      "completion": 0,
+      "total": 0
+    }
+  },
+  "elapsed_s": 4644.65
+}

@@ -1,0 +1,1658 @@
+{
+  "experiment": {
+    "p1": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+    "p1_type": "instruct",
+    "p1_spec": "hf:Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+    "p2": "greedy",
+    "p2_type": "ggp",
+    "p2_spec": "greedy",
+    "game": "suicide",
+    "doubles": 30,
+    "total_games": 60,
+    "roles": [
+      "x",
+      "o"
+    ]
+  },
+  "results": [
+    {
+      "game_num": 1,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 7,
+      "duration": 162.56245156703517,
+      "tokens": {
+        "x": {
+          "prompt": 1351,
+          "completion": 1901,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 2,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 179.65617536194623,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1306,
+          "completion": 2081,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 3,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 201.19862058293074,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2432,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 4,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 174.67302858596668,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1306,
+          "completion": 2081,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 5,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 114.69332947488874,
+      "tokens": {
+        "x": {
+          "prompt": 1035,
+          "completion": 1373,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 6,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 177.3113694358617,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1324,
+          "completion": 2081,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 7,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 194.30444135004655,
+      "tokens": {
+        "x": {
+          "prompt": 1556,
+          "completion": 2321,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 8,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 7,
+      "duration": 136.11935446830466,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1110,
+          "completion": 1569,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 9,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 7,
+      "duration": 160.8843056820333,
+      "tokens": {
+        "x": {
+          "prompt": 1351,
+          "completion": 1932,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 10,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 7,
+      "duration": 142.10872228536755,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1110,
+          "completion": 1569,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 11,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 205.40486131515354,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2454,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 12,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 181.1023106323555,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1306,
+          "completion": 2081,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 13,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 205.44356629205868,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2427,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 14,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 94.91473150113598,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 776,
+          "completion": 1046,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 15,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 7,
+      "duration": 171.30856175301597,
+      "tokens": {
+        "x": {
+          "prompt": 1351,
+          "completion": 1901,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 16,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "draw",
+      "status": "terminal",
+      "rewards": {
+        "x": 50,
+        "o": 50
+      },
+      "turns": 9,
+      "duration": 180.99114858405665,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1408,
+          "completion": 2092,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 17,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 215.84761461196467,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2488,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 18,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 7,
+      "duration": 139.94931074604392,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1110,
+          "completion": 1569,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 19,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 212.96263377508149,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2486,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 20,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "draw",
+      "status": "terminal",
+      "rewards": {
+        "x": 50,
+        "o": 50
+      },
+      "turns": 9,
+      "duration": 196.11359626427293,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1306,
+          "completion": 2081,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 21,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 216.84563526511192,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2427,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 22,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 186.2043782561086,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1408,
+          "completion": 2092,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 23,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 210.36885311780497,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2454,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 24,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 184.2775354529731,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1408,
+          "completion": 2092,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 25,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 204.2947986270301,
+      "tokens": {
+        "x": {
+          "prompt": 1520,
+          "completion": 2411,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 26,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 183.5900420048274,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1306,
+          "completion": 2081,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 27,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 206.5994808417745,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2454,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 28,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 186.02685774397105,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1408,
+          "completion": 2092,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 29,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 238.55731698917225,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2516,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 30,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 7,
+      "duration": 138.5288841780275,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1008,
+          "completion": 1558,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 31,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 211.4086681138724,
+      "tokens": {
+        "x": {
+          "prompt": 1520,
+          "completion": 2407,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 32,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 175.30924927303568,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1408,
+          "completion": 2092,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 33,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 208.41577224293724,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2432,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 34,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 174.14498745603487,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1408,
+          "completion": 2092,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 35,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 234.43283712118864,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2541,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 36,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 187.30685318028554,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1306,
+          "completion": 2081,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 37,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 209.5456313751638,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2454,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 38,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "draw",
+      "status": "terminal",
+      "rewards": {
+        "x": 50,
+        "o": 50
+      },
+      "turns": 9,
+      "duration": 186.38531836634502,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1408,
+          "completion": 2092,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 39,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 207.42917414521798,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2541,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 40,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 6,
+      "duration": 136.56093915272504,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1008,
+          "completion": 1558,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 41,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 208.87172975670546,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2486,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 42,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 174.5697770449333,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1408,
+          "completion": 2092,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 43,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 214.87445103982463,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2454,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 44,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "draw",
+      "status": "terminal",
+      "rewards": {
+        "x": 50,
+        "o": 50
+      },
+      "turns": 9,
+      "duration": 181.1802123771049,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1306,
+          "completion": 2081,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 45,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 201.99485910590738,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2454,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 46,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "draw",
+      "status": "terminal",
+      "rewards": {
+        "x": 50,
+        "o": 50
+      },
+      "turns": 9,
+      "duration": 179.99053074419498,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1306,
+          "completion": 2081,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 47,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 219.3648390090093,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2541,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 48,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 179.84266785904765,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1408,
+          "completion": 2092,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 49,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 207.17252583801746,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2454,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 50,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 179.05778182670474,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1408,
+          "completion": 2092,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 51,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 210.66319721983746,
+      "tokens": {
+        "x": {
+          "prompt": 1631,
+          "completion": 2415,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 52,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 176.26397353084758,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1306,
+          "completion": 2081,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 53,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 117.26165118301287,
+      "tokens": {
+        "x": {
+          "prompt": 1035,
+          "completion": 1378,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 54,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 7,
+      "duration": 136.91885712603107,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1110,
+          "completion": 1569,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 55,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 122.92369962576777,
+      "tokens": {
+        "x": {
+          "prompt": 1035,
+          "completion": 1378,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 56,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 9,
+      "duration": 182.4348033880815,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1324,
+          "completion": 2081,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 57,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 7,
+      "duration": 180.74755199300125,
+      "tokens": {
+        "x": {
+          "prompt": 1276,
+          "completion": 1981,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 58,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 7,
+      "duration": 138.2279976690188,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1026,
+          "completion": 1558,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 59,
+      "x_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "x_type": "instruct",
+      "o_player": "greedy",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 7,
+      "duration": 167.53811803692952,
+      "tokens": {
+        "x": {
+          "prompt": 1351,
+          "completion": 1941,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 60,
+      "x_player": "greedy",
+      "x_type": "ggp",
+      "o_player": "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1",
+      "o_type": "instruct",
+      "winner": "draw",
+      "status": "terminal",
+      "rewards": {
+        "x": 50,
+        "o": 50
+      },
+      "turns": 9,
+      "duration": 181.35408540116623,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1408,
+          "completion": 2092,
+          "total": 0
+        }
+      }
+    }
+  ],
+  "wins": {
+    "greedy": 42,
+    "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1": 12
+  },
+  "draws": 6,
+  "errors": 0,
+  "total_tokens": {
+    "Qwen/Qwen3-14B|CarpaMagica/npo-qwen-TTTs-v5.1": {
+      "prompt": 83518,
+      "completion": 125733,
+      "total": 0
+    },
+    "greedy": {
+      "prompt": 0,
+      "completion": 0,
+      "total": 0
+    }
+  },
+  "elapsed_s": 10941.42
+}

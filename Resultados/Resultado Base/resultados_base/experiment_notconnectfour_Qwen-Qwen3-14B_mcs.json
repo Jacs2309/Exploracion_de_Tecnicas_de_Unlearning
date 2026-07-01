@@ -1,0 +1,1657 @@
+{
+  "experiment": {
+    "p1": "Qwen/Qwen3-14B",
+    "p1_type": "instruct",
+    "p1_spec": "hf:Qwen/Qwen3-14B",
+    "p2": "mcs",
+    "p2_type": "ggp",
+    "p2_spec": "mcs",
+    "game": "notconnectfour",
+    "doubles": 30,
+    "total_games": 60,
+    "roles": [
+      "red",
+      "black"
+    ]
+  },
+  "results": [
+    {
+      "game_num": 1,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 13,
+      "duration": 258.4499724153429,
+      "tokens": {
+        "red": {
+          "prompt": 1586,
+          "completion": 3458,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 2,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 158.55789032392204,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 3,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 150.24062461964786,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2018,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 4,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 150.85088603757322,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 1933,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 5,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 146.31888351216912,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2018,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 6,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 159.08343979530036,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 7,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 15,
+      "duration": 306.91881665587425,
+      "tokens": {
+        "red": {
+          "prompt": 1912,
+          "completion": 4094,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 8,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 149.2261468693614,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 1920,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 9,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 148.45157585293055,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2051,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 10,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 157.81390921026468,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 11,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 152.16577514074743,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2077,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 12,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 153.6257392913103,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 1933,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 13,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 151.35455068573356,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2051,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 14,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 149.63458789885044,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 1933,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 15,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 9,
+      "duration": 196.51559500396252,
+      "tokens": {
+        "red": {
+          "prompt": 1030,
+          "completion": 2538,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 16,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 10,
+      "duration": 198.05943141132593,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1090,
+          "completion": 2600,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 17,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 142.14260239712894,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 1932,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 18,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 160.209184166044,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 19,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 9,
+      "duration": 192.42790812812746,
+      "tokens": {
+        "red": {
+          "prompt": 1030,
+          "completion": 2538,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 20,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 14,
+      "duration": 287.21869784779847,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1670,
+          "completion": 3636,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 21,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 9,
+      "duration": 204.4440695308149,
+      "tokens": {
+        "red": {
+          "prompt": 1030,
+          "completion": 2378,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 22,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 14,
+      "duration": 277.7326575573534,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1670,
+          "completion": 3510,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 23,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 9,
+      "duration": 205.57493130862713,
+      "tokens": {
+        "red": {
+          "prompt": 1030,
+          "completion": 2544,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 24,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 14,
+      "duration": 283.17143851332366,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1670,
+          "completion": 3636,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 25,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 15,
+      "duration": 311.5736474432051,
+      "tokens": {
+        "red": {
+          "prompt": 1912,
+          "completion": 4025,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 26,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 168.51583501137793,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 27,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 156.4277914017439,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2018,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 28,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 171.5134755037725,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 29,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 151.63978083245456,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2079,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 30,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 154.59634436108172,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 1931,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 31,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 138.51946200989187,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 1873,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 32,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 154.27732913941145,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 2031,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 33,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 150.52379086241126,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2052,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 34,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 10,
+      "duration": 206.5287191104144,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1090,
+          "completion": 2600,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 35,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 150.94276498816907,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2018,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 36,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 10,
+      "duration": 193.71181815117598,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1090,
+          "completion": 2519,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 37,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 151.47810047864914,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2052,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 38,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 14,
+      "duration": 280.1958373580128,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1670,
+          "completion": 3636,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 39,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 150.3606779742986,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2018,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 40,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 160.2727403808385,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 41,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 150.12778375297785,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2018,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 42,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 10,
+      "duration": 201.34285735338926,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1090,
+          "completion": 2600,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 43,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 147.96391061507165,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2018,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 44,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 161.894054684788,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 45,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 153.00601610727608,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2052,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 46,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 159.8778232317418,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 47,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 9,
+      "duration": 189.1781101450324,
+      "tokens": {
+        "red": {
+          "prompt": 1030,
+          "completion": 2538,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 48,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 165.20471022091806,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 49,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 145.200847517699,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 1933,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 50,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 159.6275143865496,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 51,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 154.26329423114657,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2079,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 52,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 160.09812956862152,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 53,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 153.4670982453972,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2077,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 54,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 161.8818129170686,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 55,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 158.274776391685,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2079,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 56,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 10,
+      "duration": 199.29173621162772,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1090,
+          "completion": 2600,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 57,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 146.70126450806856,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2018,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 58,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 162.08275112323463,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 824,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 59,
+      "red_player": "Qwen/Qwen3-14B",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 151.10748716630042,
+      "tokens": {
+        "red": {
+          "prompt": 776,
+          "completion": 2051,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 60,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "Qwen/Qwen3-14B",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 10,
+      "duration": 198.30755018256605,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1090,
+          "completion": 2600,
+          "total": 0
+        }
+      }
+    }
+  ],
+  "wins": {
+    "mcs": 60
+  },
+  "draws": 0,
+  "errors": 0,
+  "total_tokens": {
+    "Qwen/Qwen3-14B": {
+      "prompt": 57332,
+      "completion": 139433,
+      "total": 0
+    },
+    "mcs": {
+      "prompt": 0,
+      "completion": 0,
+      "total": 0
+    }
+  },
+  "elapsed_s": 10718.74
+}

@@ -1,0 +1,134 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% centralis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+role(x)
+role(o)
+
+sec(1)
+sec(2)
+sec(3)
+sec(4)
+sec(5)
+sec(6)
+sec(7)
+sec(8)
+sec(9)
+sec(10)
+sec(11)
+sec(12)
+sec(13)
+sec(14)
+sec(15)
+sec(16)
+
+playring(1)
+playring(2)
+playring(3)
+
+base(cell(S,R,x)) :- sec(S) & playring(R)
+base(cell(S,R,o)) :- sec(S) & playring(R)
+base(cell(S,R,b)) :- sec(S) & playring(R)
+base(cell(c,c,x))
+base(cell(c,c,o))
+base(cell(c,c,b))
+base(control(R)) :- role(R)
+
+action(mark(S,R)) :- sec(S) & playring(R)
+action(mark(c,c))
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% init
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+init(cell(S,R,b)) :- sec(S) & playring(R)
+init(cell(c,c,b))
+init(control(x))
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% legal
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+legal(mark(S,R)) :- control(P) & role(P) & sec(S) & playring(R) & cell(S,R,b)
+legal(mark(c,c)) :- control(P) & role(P) & cell(c,c,b) & unlocked(P)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% operations
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+mark(S,R) :: control(P) & sec(S) & playring(R) ==> cell(S,R,P) & ~cell(S,R,b)
+mark(c,c) :: control(P) & unlocked(P) ==> cell(c,c,P) & ~cell(c,c,b)
+
+mark(S,R) :: control(x) ==> ~control(x) & control(o)
+mark(S,R) :: control(o) ==> ~control(o) & control(x)
+mark(c,c) :: control(x) ==> ~control(x) & control(o)
+mark(c,c) :: control(o) ==> ~control(o) & control(x)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% goal
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+goal(x,100) :- cell(c,c,x)
+goal(x,0)   :- cell(c,c,o)
+goal(x,50)  :- cell(c,c,b) & ~peripheral_open
+
+goal(o,100) :- cell(c,c,o)
+goal(o,0)   :- cell(c,c,x)
+goal(o,50)  :- cell(c,c,b) & ~peripheral_open
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% unlock condition
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+unlocked(P) :- radial_path(P)
+unlocked(P) :- diag_cw_path(P)
+unlocked(P) :- diag_ccw_path(P)
+
+radial_path(P) :- cell(S,1,P) & cell(S,2,P) & cell(S,3,P)
+
+diag_cw_path(P) :- diag_cw(A,B,C) & cell(C,1,P) & cell(B,2,P) & cell(A,3,P)
+diag_ccw_path(P) :- diag_ccw(A,B,C) & cell(C,1,P) & cell(B,2,P) & cell(A,3,P)
+
+diag_cw(1,2,3)
+diag_cw(2,3,4)
+diag_cw(3,4,5)
+diag_cw(4,5,6)
+diag_cw(5,6,7)
+diag_cw(6,7,8)
+diag_cw(7,8,9)
+diag_cw(8,9,10)
+diag_cw(9,10,11)
+diag_cw(10,11,12)
+diag_cw(11,12,13)
+diag_cw(12,13,14)
+diag_cw(13,14,15)
+diag_cw(14,15,16)
+diag_cw(15,16,1)
+diag_cw(16,1,2)
+
+diag_ccw(1,16,15)
+diag_ccw(2,1,16)
+diag_ccw(3,2,1)
+diag_ccw(4,3,2)
+diag_ccw(5,4,3)
+diag_ccw(6,5,4)
+diag_ccw(7,6,5)
+diag_ccw(8,7,6)
+diag_ccw(9,8,7)
+diag_ccw(10,9,8)
+diag_ccw(11,10,9)
+diag_ccw(12,11,10)
+diag_ccw(13,12,11)
+diag_ccw(14,13,12)
+diag_ccw(15,14,13)
+diag_ccw(16,15,14)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% terminal
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+terminal :- cell(c,c,x)
+terminal :- cell(c,c,o)
+terminal :- cell(c,c,b) & ~peripheral_open
+
+peripheral_open :- cell(S,R,b) & sec(S) & playring(R)

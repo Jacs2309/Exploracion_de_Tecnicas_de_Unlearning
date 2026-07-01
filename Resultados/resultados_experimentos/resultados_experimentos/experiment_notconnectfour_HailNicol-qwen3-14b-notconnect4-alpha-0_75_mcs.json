@@ -1,0 +1,1657 @@
+{
+  "experiment": {
+    "p1": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+    "p1_type": "instruct",
+    "p1_spec": "tvn:HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+    "p2": "mcs",
+    "p2_type": "ggp",
+    "p2_spec": "mcs",
+    "game": "notconnectfour",
+    "doubles": 30,
+    "total_games": 60,
+    "roles": [
+      "red",
+      "black"
+    ]
+  },
+  "results": [
+    {
+      "game_num": 1,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 15,
+      "duration": 306.83509566122666,
+      "tokens": {
+        "red": {
+          "prompt": 2304,
+          "completion": 4160,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 2,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 155.92357037728652,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 939,
+          "completion": 2072,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 3,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 148.28341632382944,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 4,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 156.41271223081276,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 5,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 148.37778571993113,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 6,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 156.4462330318056,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 7,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 13,
+      "duration": 265.9196114097722,
+      "tokens": {
+        "red": {
+          "prompt": 1926,
+          "completion": 3640,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 8,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 16,
+      "duration": 313.6581078590825,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 2400,
+          "completion": 4160,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 9,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 148.2307329978794,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 10,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 156.43822113564238,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 11,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 15,
+      "duration": 305.27680817618966,
+      "tokens": {
+        "red": {
+          "prompt": 2304,
+          "completion": 4160,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 12,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 156.3332250667736,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 13,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 148.1593993557617,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 14,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 155.88704604515806,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 939,
+          "completion": 2072,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 15,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 9,
+      "duration": 187.38746068812907,
+      "tokens": {
+        "red": {
+          "prompt": 1290,
+          "completion": 2600,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 16,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 10,
+      "duration": 195.76765622198582,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1350,
+          "completion": 2600,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 17,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 148.7956398096867,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 18,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 157.0392717961222,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 19,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 148.30094309989363,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 20,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 10,
+      "duration": 195.52616079198197,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1257,
+          "completion": 2592,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 21,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 9,
+      "duration": 190.7868486349471,
+      "tokens": {
+        "red": {
+          "prompt": 1290,
+          "completion": 2600,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 22,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 16,
+      "duration": 323.2665185360238,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 2400,
+          "completion": 4160,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 23,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 9,
+      "duration": 192.95476110978052,
+      "tokens": {
+        "red": {
+          "prompt": 1290,
+          "completion": 2600,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 24,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 162.67157324403524,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 25,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 9,
+      "duration": 192.90951579110697,
+      "tokens": {
+        "red": {
+          "prompt": 1290,
+          "completion": 2600,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 26,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 10,
+      "duration": 200.28663131827489,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1257,
+          "completion": 2592,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 27,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 153.2555012991652,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 28,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 160.19033001502976,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 29,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 154.56095341034234,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 30,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 14,
+      "duration": 286.9157498339191,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 2010,
+          "completion": 3640,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 31,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 155.65655217366293,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 32,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 16,
+      "duration": 326.38859072327614,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 2400,
+          "completion": 4160,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 33,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 152.67479067994282,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 34,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 160.35284764505923,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 35,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 152.99475831119344,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 36,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 160.0665773912333,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 37,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 151.89741737116128,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 38,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 22,
+      "duration": 445.6346029578708,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 3630,
+          "completion": 5720,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 39,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 15,
+      "duration": 317.0881141060963,
+      "tokens": {
+        "red": {
+          "prompt": 2292,
+          "completion": 4160,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 40,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 161.98025345010683,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 41,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 155.73902591131628,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 42,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 162.39294041600078,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 939,
+          "completion": 2072,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 43,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 154.09902315912768,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 44,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 169.65395523421466,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 45,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 153.7248118110001,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 46,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 162.56265487987548,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 47,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 13,
+      "duration": 274.01343907695264,
+      "tokens": {
+        "red": {
+          "prompt": 1926,
+          "completion": 3640,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 48,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 160.9331369632855,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 939,
+          "completion": 2072,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 49,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 152.31830938905478,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 50,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 160.71574514592066,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 51,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 152.1550037660636,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 52,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 159.4423614279367,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 939,
+          "completion": 2072,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 53,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 152.09491174016148,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 54,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 10,
+      "duration": 201.2758171488531,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1350,
+          "completion": 2600,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 55,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 156.62283510621637,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 56,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 10,
+      "duration": 204.16413645260036,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1350,
+          "completion": 2600,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 57,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 151.3228791258298,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 58,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 159.70959629816934,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 59,
+      "red_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "red_type": "instruct",
+      "black_player": "mcs",
+      "black_type": "ggp",
+      "winner": "black",
+      "status": "terminal",
+      "rewards": {
+        "red": 0,
+        "black": 100
+      },
+      "turns": 7,
+      "duration": 153.20730315474793,
+      "tokens": {
+        "red": {
+          "prompt": 984,
+          "completion": 2080,
+          "total": 0
+        },
+        "black": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 60,
+      "red_player": "mcs",
+      "red_type": "ggp",
+      "black_player": "HailNicol/qwen3-14b-notconnect4-alpha-0_75",
+      "black_type": "instruct",
+      "winner": "red",
+      "status": "terminal",
+      "rewards": {
+        "red": 100,
+        "black": 0
+      },
+      "turns": 8,
+      "duration": 158.6721762539819,
+      "tokens": {
+        "red": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "black": {
+          "prompt": 1032,
+          "completion": 2080,
+          "total": 0
+        }
+      }
+    }
+  ],
+  "wins": {
+    "mcs": 60
+  },
+  "draws": 0,
+  "errors": 0,
+  "total_tokens": {
+    "HailNicol/qwen3-14b-notconnect4-alpha-0_75": {
+      "prompt": 76155,
+      "completion": 150224,
+      "total": 0
+    },
+    "mcs": {
+      "prompt": 0,
+      "completion": 0,
+      "total": 0
+    }
+  },
+  "elapsed_s": 11354.51
+}

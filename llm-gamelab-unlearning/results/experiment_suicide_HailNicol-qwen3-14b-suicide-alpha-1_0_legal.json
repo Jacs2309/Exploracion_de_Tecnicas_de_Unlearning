@@ -1,0 +1,1658 @@
+{
+  "experiment": {
+    "p1": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+    "p1_type": "instruct",
+    "p1_spec": "tvn:HailNicol/qwen3-14b-suicide-alpha-1_0",
+    "p2": "legal",
+    "p2_type": "ggp",
+    "p2_spec": "legal",
+    "game": "suicide",
+    "doubles": 30,
+    "total_games": 60,
+    "roles": [
+      "x",
+      "o"
+    ]
+  },
+  "results": [
+    {
+      "game_num": 1,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.54368690401316,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 2,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 92.14479262009263,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 3,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.43489377386868,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 4,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 122.68891266919672,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 734,
+          "completion": 2048,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 5,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 7,
+      "duration": 214.4247110132128,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 6,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 92.0951367393136,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 7,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 7,
+      "duration": 214.35568658821285,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 8,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 183.6458894982934,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1000,
+          "completion": 3072,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 9,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.39241934381425,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 10,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 153.152790017426,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 867,
+          "completion": 2560,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 11,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.45491469837725,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 12,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 92.07829484716058,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 13,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.48914125561714,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 14,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 91.9951631333679,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 15,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.43951518461108,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 16,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 92.2132825832814,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 17,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 218.65408431738615,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 18,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 183.75558642670512,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 1000,
+          "completion": 3072,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 19,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.4212252162397,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 20,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 92.09591640345752,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 21,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 215.20316600985825,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 22,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 92.46448214352131,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 23,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.73838463798165,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 24,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 122.70075627416372,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 734,
+          "completion": 2048,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 25,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 7,
+      "duration": 245.09466674737632,
+      "tokens": {
+        "x": {
+          "prompt": 1450,
+          "completion": 4096,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 26,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 92.18206911534071,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 27,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.5186418183148,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 28,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 122.60283240862191,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 734,
+          "completion": 2048,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 29,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.43861884437501,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 30,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 122.60531663894653,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 734,
+          "completion": 2048,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 31,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 245.03238933347166,
+      "tokens": {
+        "x": {
+          "prompt": 1396,
+          "completion": 4096,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 32,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 122.63895474001765,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 734,
+          "completion": 2048,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 33,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.55831420235336,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 34,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 92.09559760801494,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 35,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.59347824007273,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 36,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 92.06966446526349,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 37,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 244.90214766003191,
+      "tokens": {
+        "x": {
+          "prompt": 1396,
+          "completion": 4096,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 38,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 92.04416055604815,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 39,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 244.89506256952882,
+      "tokens": {
+        "x": {
+          "prompt": 1450,
+          "completion": 4096,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 40,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 122.60196135565639,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 734,
+          "completion": 2048,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 41,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 245.03633579052985,
+      "tokens": {
+        "x": {
+          "prompt": 1450,
+          "completion": 4096,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 42,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 122.79235867969692,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 734,
+          "completion": 2048,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 43,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.35565282218158,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 44,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 92.07178330048919,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 45,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.4672742858529,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 46,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 92.15395832248032,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 47,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 276.15363704413176,
+      "tokens": {
+        "x": {
+          "prompt": 1502,
+          "completion": 4608,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 48,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 91.98838804848492,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 49,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.37614044174552,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 50,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 153.16264286264777,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 867,
+          "completion": 2560,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 51,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 245.61987831257284,
+      "tokens": {
+        "x": {
+          "prompt": 1450,
+          "completion": 4096,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 52,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 122.50623916462064,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 734,
+          "completion": 2048,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 53,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.72384818829596,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 54,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 92.09754759818316,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 55,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 214.49613030813634,
+      "tokens": {
+        "x": {
+          "prompt": 1290,
+          "completion": 3584,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 56,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 92.25381892360747,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 57,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 7,
+      "duration": 245.20940797962248,
+      "tokens": {
+        "x": {
+          "prompt": 1396,
+          "completion": 4096,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 58,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 91.96533049084246,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 59,
+      "x_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "x_type": "instruct",
+      "o_player": "legal",
+      "o_type": "ggp",
+      "winner": "x",
+      "status": "terminal",
+      "rewards": {
+        "x": 100,
+        "o": 0
+      },
+      "turns": 8,
+      "duration": 244.66595282964408,
+      "tokens": {
+        "x": {
+          "prompt": 1450,
+          "completion": 4096,
+          "total": 0
+        },
+        "o": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        }
+      }
+    },
+    {
+      "game_num": 60,
+      "x_player": "legal",
+      "x_type": "ggp",
+      "o_player": "HailNicol/qwen3-14b-suicide-alpha-1_0",
+      "o_type": "instruct",
+      "winner": "o",
+      "status": "terminal",
+      "rewards": {
+        "x": 0,
+        "o": 100
+      },
+      "turns": 5,
+      "duration": 91.95491397567093,
+      "tokens": {
+        "x": {
+          "prompt": 0,
+          "completion": 0,
+          "total": 0
+        },
+        "o": {
+          "prompt": 601,
+          "completion": 1536,
+          "total": 0
+        }
+      }
+    }
+  ],
+  "wins": {
+    "HailNicol/qwen3-14b-suicide-alpha-1_0": 56,
+    "legal": 4
+  },
+  "draws": 0,
+  "errors": 0,
+  "total_tokens": {
+    "HailNicol/qwen3-14b-suicide-alpha-1_0": {
+      "prompt": 60454,
+      "completion": 167936,
+      "total": 0
+    },
+    "legal": {
+      "prompt": 0,
+      "completion": 0,
+      "total": 0
+    }
+  },
+  "elapsed_s": 10104.86
+}
