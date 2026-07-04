@@ -144,7 +144,7 @@ def train_npo():
         learning_rate=LEARNING_RATE,
         lr_scheduler_type="cosine",
         max_length=MAX_LENGTH,
-        #num_train_epochs=1,
+        num_train_epochs=3,
         beta=BETA,
         loss_type="sigmoid",
         report_to="none",
@@ -153,7 +153,7 @@ def train_npo():
         optim="adamw_torch_fused",
         remove_unused_columns=False,
         warmup_ratio=0.15,
-        max_steps = 80,  # ← detiene en ~epoch 0.32 con tu dataset
+        max_steps = 80,
         save_steps = 20,
         save_total_limit = 4,
     )

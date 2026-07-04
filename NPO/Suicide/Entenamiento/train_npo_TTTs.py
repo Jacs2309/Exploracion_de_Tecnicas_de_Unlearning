@@ -31,17 +31,17 @@ print("Autenticando en Hugging Face...")
 login(token=os.environ["HF_TOKEN"], add_to_git_credential=True)
 
 # Hiperparámetros de LoRA y Entrenamiento
-LORA_R = 16
-LORA_ALPHA = 32
-LEARNING_RATE = 8e-6
+LORA_R = 32
+LORA_ALPHA = 64
+LEARNING_RATE = 5e-6
 MAX_LENGTH = 512
-BETA = 0.2
+BETA = 0.1
 
 # Configuración de LoRA extendida a capas MLP para potenciar la lógica inversa del juego
 LORA_CONFIG = LoraConfig(
     r=LORA_R,
     lora_alpha=LORA_ALPHA,
-    target_modules=["q_proj", "v_proj", "o_proj"],
+    target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
     lora_dropout=0.05,
     bias="none",
     task_type="CAUSAL_LM"
@@ -143,9 +143,8 @@ def train_npo():
         gradient_accumulation_steps=16,
         learning_rate=LEARNING_RATE,
         lr_scheduler_type="cosine",
-        #label_smoothing=0.1,
         max_length=MAX_LENGTH,
-        num_train_epochs=1,
+        num_train_epochs=3,
         beta=BETA,
         loss_type="sigmoid",
         report_to="none",
@@ -154,9 +153,9 @@ def train_npo():
         optim="adamw_torch_fused",
         remove_unused_columns=False,
         warmup_ratio=0.1,
-        #max_steps = 40,  # ← detiene en ~epoch 0.32 con tu dataset
-        #save_steps = 10,
-        #save_total_limit = 4,
+        max_steps = 40, 
+        save_steps = 10,
+        save_total_limit = 4,
     )
 
     dataset = prepare_dataset(DATASET_PATH, tokenizer)
